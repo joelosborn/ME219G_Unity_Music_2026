@@ -22,7 +22,7 @@ public class AudioManager : MonoBehaviour
         public StudioEventEmitter ambiance;
         public StudioEventEmitter snapShotPause;
 
-        public StudioEventEmitter Cave;
+        public StudioEventEmitter MusicIndoor;
     }
     public Emitters eventEmitters;
 
