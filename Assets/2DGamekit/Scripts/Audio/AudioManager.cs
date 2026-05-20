@@ -446,7 +446,7 @@ public class AudioManager : MonoBehaviour
 
     public void PlayMusicPause()
     {
-        if (eventEmitters.musicPause.EventReference.IsNull)
+        /*if (eventEmitters.musicPause.EventReference.IsNull)
         {
             Debug.LogWarning("Fmod event not found: eventEmitters.musicPause");
             return;
@@ -455,7 +455,7 @@ public class AudioManager : MonoBehaviour
         if (!eventEmitters.musicPause.IsActive)
         {
             eventEmitters.musicPause.Play();
-        }
+        }*/
         
         if (eventEmitters.snapShotPause.EventReference.IsNull)
         {
@@ -472,7 +472,7 @@ public class AudioManager : MonoBehaviour
 
     public void StopMusicPause()
     {
-        if (eventEmitters.musicPause.EventReference.IsNull)
+        /*if (eventEmitters.musicPause.EventReference.IsNull)
         {
             Debug.LogWarning("Fmod event not found: eventEmitters.musicPause");
             return;
@@ -481,7 +481,7 @@ public class AudioManager : MonoBehaviour
         if (eventEmitters.musicPause.IsActive)
         {
             eventEmitters.musicPause.Stop();
-        }
+        }*/
         
         if (eventEmitters.snapShotPause.EventReference.IsNull)
         {
