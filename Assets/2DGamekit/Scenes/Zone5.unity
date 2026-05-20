@@ -2002,7 +2002,7 @@ MonoBehaviour:
   audioSettings:
   - emitter: {fileID: 0}
     tag: MusicBoss
-    action: 3
+    action: 1
     parameter: BossStage
     targetValue: 0
 --- !u!1 &211741460
