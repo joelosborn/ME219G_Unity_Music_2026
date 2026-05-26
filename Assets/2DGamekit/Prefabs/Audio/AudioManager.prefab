@@ -554,11 +554,11 @@ MonoBehaviour:
     Path: 
   stingerPuzzleSolved:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 664234650
+      Data2: 1224144670
+      Data3: 632911779
+      Data4: -525525125
+    Path: event:/Music/Stingers/PuzzleSolvedStinger
   combatState: 0
   aggroEnemyParamName: 
   aggroEnemyCount: 0

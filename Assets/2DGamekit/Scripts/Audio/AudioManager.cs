@@ -65,7 +65,8 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private EventReference stingerKeyPickup;
     [SerializeField] private EventReference stingerWeaponPickup;
     [SerializeField] private EventReference stingerPuzzleSolved;
-    
+    [SerializeField] private EventReference stingerHealthPickup;
+
         
     [HideInInspector]
     public bool combatState;
@@ -346,6 +347,16 @@ public class AudioManager : MonoBehaviour
             return;
         }
         RuntimeManager.PlayOneShot(stingerPuzzleSolved);
+    }
+
+   public void PlayHealthPickup()
+    {
+        if (stingerPuzzleSolved.IsNull)
+        {
+            Debug.LogWarning("Fmod event not found: stingerHealthPickup");
+            return;
+        }
+        RuntimeManager.PlayOneShot(stingerHealthPickup);
     }
 
 
