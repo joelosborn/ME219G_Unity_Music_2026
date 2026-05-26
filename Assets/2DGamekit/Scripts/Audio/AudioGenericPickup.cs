@@ -20,5 +20,13 @@ public class AudioGenericPickup : MonoBehaviour
     public void PlayWeaponPickup()
     {
         AudioManager.Instance.PlayWeaponPickup();
+
     }
+
+     public void PlayPuzzleSolved()
+    {
+        AudioManager.Instance.PlayStingerPuzzleSolved();
+
+    }
+    
 }

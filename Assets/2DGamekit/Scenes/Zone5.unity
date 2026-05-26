@@ -1921,18 +1921,6 @@ MonoBehaviour:
   OnDirectorPlay:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1206402945}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1409900103}
         m_TargetAssemblyTypeName: 
         m_MethodName: ReleaseControl
@@ -1975,6 +1963,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1409900103}
         m_TargetAssemblyTypeName: 
         m_MethodName: GainControl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 200126962}
+        m_TargetAssemblyTypeName: AudioEventTrigger, Assembly-CSharp
+        m_MethodName: GenerateSettings
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -53444,7 +53444,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03daa8c22bdddef4193840a795b881f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSettings: []
+  audioSettings:
+  - emitter: {fileID: 0}
+    tag: 
+    action: 1
+    parameter: 
+    targetValue: 0
 --- !u!114 &975682040
 MonoBehaviour:
   m_ObjectHideFlags: 0
