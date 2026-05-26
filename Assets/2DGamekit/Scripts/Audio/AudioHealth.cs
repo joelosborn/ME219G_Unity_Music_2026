@@ -15,4 +15,9 @@ public class AudioHealth : MonoBehaviour
     {
         audioManager.PlayHealth();
     }
+
+    public void PlayHealthPickup()
+    {
+      AudioManager.Instance.PlayHealthPickup();
+    }
 }
