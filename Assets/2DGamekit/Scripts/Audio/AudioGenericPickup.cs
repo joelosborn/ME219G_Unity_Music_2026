@@ -26,7 +26,6 @@ public class AudioGenericPickup : MonoBehaviour
      public void PlayPuzzleSolved()
     {
         AudioManager.Instance.PlayStingerPuzzleSolved();
-
     }
-    
+
 }
