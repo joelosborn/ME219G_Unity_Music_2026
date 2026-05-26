@@ -65,6 +65,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private EventReference stingerKeyPickup;
     [SerializeField] private EventReference stingerWeaponPickup;
     [SerializeField] private EventReference stingerPuzzleSolved;
+    
         
     [HideInInspector]
     public bool combatState;
