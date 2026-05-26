@@ -47,21 +47,19 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -802277636
-      Data2: 1170458895
-      Data3: -520356442
-      Data4: -872190255
-    Path: event:/Music/Themes/GamePlay
+      Data1: -608731200
+      Data2: 1269116874
+      Data3: 1813248176
+      Data4: -454517196
+    Path: event:/Music/Themes/MusicIndoor
   Event: 
-  EventPlayTrigger: 5
+  EventPlayTrigger: 0
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
   NonRigidbodyVelocity: 0
-  Params:
-  - Name: Location
-    Value: 1
+  Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
@@ -392,7 +390,7 @@ MonoBehaviour:
     musicPause: {fileID: 4860983653683116548}
     ambiance: {fileID: 4318290237544591130}
     snapShotPause: {fileID: 7484880938483047845}
-    MusicIndoor: {fileID: 0}
+    MusicIndoor: {fileID: 8312239015663651371}
   playerFootsteps:
     Guid:
       Data1: 1857598397
