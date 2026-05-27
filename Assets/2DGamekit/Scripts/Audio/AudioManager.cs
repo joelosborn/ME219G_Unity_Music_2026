@@ -23,6 +23,8 @@ public class AudioManager : MonoBehaviour
         public StudioEventEmitter snapShotPause;
 
         public StudioEventEmitter MusicIndoor;
+
+      
     }
     public Emitters eventEmitters;
 
@@ -243,6 +245,7 @@ public class AudioManager : MonoBehaviour
         }
         RuntimeManager.PlayOneShot(playerHurt, transform.position);
     }
+  
 
     public void PlayDestroy(GameObject destroyObject)
     {
