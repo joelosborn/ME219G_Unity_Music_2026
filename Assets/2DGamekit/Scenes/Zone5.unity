@@ -2017,6 +2017,11 @@ MonoBehaviour:
     action: 1
     parameter: 
     targetValue: 0
+  - emitter: {fileID: 0}
+    tag: MusicIndoor
+    action: 2
+    parameter: 
+    targetValue: 0
 --- !u!1 &211741460
 GameObject:
   m_ObjectHideFlags: 0
@@ -52219,7 +52224,7 @@ PrefabInstance:
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.data[2].tag
-      value: 
+      value: MusicIndoor
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
@@ -62736,7 +62741,7 @@ PrefabInstance:
     - target: {fileID: 114774311958850474, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
         type: 3}
       propertyPath: startingHealth
-      value: 50
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114774311958850474, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
         type: 3}
