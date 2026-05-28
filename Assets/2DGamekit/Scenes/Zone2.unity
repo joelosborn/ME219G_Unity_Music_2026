@@ -1414,12 +1414,12 @@ PrefabInstance:
     - target: {fileID: 3371524719925752810, guid: ac1c8692c9aeaca48ab541c2147b8923,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.96
+      value: -5.01
       objectReference: {fileID: 0}
     - target: {fileID: 3371524719925752810, guid: ac1c8692c9aeaca48ab541c2147b8923,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.63
+      value: 4.86
       objectReference: {fileID: 0}
     - target: {fileID: 3371524719925752810, guid: ac1c8692c9aeaca48ab541c2147b8923,
         type: 3}
@@ -1484,7 +1484,7 @@ PrefabInstance:
     - target: {fileID: 3371524719925752820, guid: ac1c8692c9aeaca48ab541c2147b8923,
         type: 3}
       propertyPath: audioTriggerSettings.Array.data[0].targetValue
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16801,6 +16801,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3371524719925752820, guid: ac1c8692c9aeaca48ab541c2147b8923,
         type: 3}
+      propertyPath: destroyAfterUse
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3371524719925752820, guid: ac1c8692c9aeaca48ab541c2147b8923,
+        type: 3}
       propertyPath: audioTriggerSettings.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -16817,7 +16822,7 @@ PrefabInstance:
     - target: {fileID: 3371524719925752820, guid: ac1c8692c9aeaca48ab541c2147b8923,
         type: 3}
       propertyPath: audioTriggerSettings.Array.data[0].parameter
-      value: Location
+      value: UnderGround
       objectReference: {fileID: 0}
     - target: {fileID: 3371524719925752820, guid: ac1c8692c9aeaca48ab541c2147b8923,
         type: 3}
@@ -27791,6 +27796,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3371524719925752820, guid: ac1c8692c9aeaca48ab541c2147b8923,
         type: 3}
+      propertyPath: destroyAfterUse
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3371524719925752820, guid: ac1c8692c9aeaca48ab541c2147b8923,
+        type: 3}
       propertyPath: audioTriggerSettings.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -27807,7 +27817,7 @@ PrefabInstance:
     - target: {fileID: 3371524719925752820, guid: ac1c8692c9aeaca48ab541c2147b8923,
         type: 3}
       propertyPath: audioTriggerSettings.Array.data[0].parameter
-      value: Location
+      value: UnderGround
       objectReference: {fileID: 0}
     - target: {fileID: 3371524719925752820, guid: ac1c8692c9aeaca48ab541c2147b8923,
         type: 3}
