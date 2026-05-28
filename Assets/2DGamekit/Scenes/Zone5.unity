@@ -938,6 +938,18 @@ Transform:
   - {fileID: 1611555257}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &116613146 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 43262770314822085, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+    type: 3}
+  m_PrefabInstance: {fileID: 1346731431}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 066bfee7b1442460e8dc274d17e45ccc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &120663264
 GameObject:
   m_ObjectHideFlags: 0
@@ -51760,6 +51772,41 @@ PrefabInstance:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[4].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[4].m_Target
+      value: 
+      objectReference: {fileID: 1672925264}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
+      value: PlayHealthPickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[4].m_TargetAssemblyTypeName
+      value: AudioHealth, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -54869,6 +54916,41 @@ PrefabInstance:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[4].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[4].m_Target
+      value: 
+      objectReference: {fileID: 1333224622}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
+      value: PlayHealthPickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[4].m_TargetAssemblyTypeName
+      value: AudioHealth, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -57117,6 +57199,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db30b6a69797544c8a2f8777aa55668f, type: 3}
+--- !u!114 &1333224622 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 43262770314822085, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+    type: 3}
+  m_PrefabInstance: {fileID: 1127743919}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 066bfee7b1442460e8dc274d17e45ccc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1336166047
 GameObject:
   m_ObjectHideFlags: 0
@@ -57307,6 +57401,71 @@ PrefabInstance:
         type: 3}
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[4].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[5].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[4].m_Target
+      value: 
+      objectReference: {fileID: 116613146}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[5].m_Target
+      value: 
+      objectReference: {fileID: 116613146}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[5].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
+      value: PlayHealthPickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[5].m_MethodName
+      value: PlayHealthPickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[4].m_TargetAssemblyTypeName
+      value: AudioHealth, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[5].m_TargetAssemblyTypeName
+      value: AudioHealth, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -65375,6 +65534,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 949645367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1672925264 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 43262770314822085, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+    type: 3}
+  m_PrefabInstance: {fileID: 782130500}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 066bfee7b1442460e8dc274d17e45ccc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1687273328
 GameObject:
   m_ObjectHideFlags: 0
