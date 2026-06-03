@@ -63505,7 +63505,7 @@ PrefabInstance:
     - target: {fileID: 3371524719925752820, guid: ac1c8692c9aeaca48ab541c2147b8923,
         type: 3}
       propertyPath: audioTriggerSettings.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3371524719925752820, guid: ac1c8692c9aeaca48ab541c2147b8923,
         type: 3}
@@ -69817,12 +69817,12 @@ PrefabInstance:
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: stunParameter
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossDeathValue
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
