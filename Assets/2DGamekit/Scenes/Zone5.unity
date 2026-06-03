@@ -2013,13 +2013,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSettings:
   - emitter: {fileID: 0}
-    tag: MusicBoss
-    action: 1
+    tag: MusicIndoor
+    action: 2
     parameter: 
     targetValue: 0
   - emitter: {fileID: 0}
-    tag: MusicIndoor
-    action: 2
+    tag: MusicBoss
+    action: 1
     parameter: 
     targetValue: 0
 --- !u!1 &211741460
